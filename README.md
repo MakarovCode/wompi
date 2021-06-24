@@ -86,4 +86,10 @@ if wompi_trans.success?
   # DO something
 end
 
+# you can also
+wompi_trans.get("id")
+wompi_trans.search("reference")
+wompi_trans.void("id")
+
+
 ```
